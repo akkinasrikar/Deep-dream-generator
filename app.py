@@ -1,5 +1,5 @@
 import streamlit as st 
-st.title("Image Segmentation")
+st.title("Deep Dream Generator")
 
 st.write("Packages Loading....")
 import urllib.request
