@@ -15,7 +15,7 @@ import cv2
 import time
 st.write("Packages Loaded Successfully XD ")
 b=0
-text = st.text_input("Search by tag")
+text = st.text_input("Enter url here....")
 if text:
 	try:
 		urllib.request.urlretrieve(text, "sample.jpg")
